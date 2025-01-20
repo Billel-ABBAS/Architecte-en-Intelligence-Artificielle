@@ -19,7 +19,7 @@ En outre, ce répertoire comprend également des informations relatives à l'ent
 Les fichiers de sortie, **data_cleaned.csv** et **data_reco.csv**, ainsi que **model.pkl**, qui contiennent les données prétraitées, nettoyées et le modèle entraîné, sont disponibles sur Google Drive.
 
 ## Dossier Airflow![image](https://github.com/billel0912/LEAD-Bloc1-Netflix-Recommendation-Jedha/assets/114284427/9679373f-f151-4117-9696-7a712769d2e4), Kafka![image](https://github.com/billel0912/LEAD-Bloc1-Netflix-Recommendation-Jedha/assets/114284427/8a330337-5048-4ce4-9e7b-7e24e0362887) et FASTAPI![image](https://github.com/billel0912/LEAD-Bloc1-Netflix-Recommendation-Jedha/assets/114284427/92dbeb3f-bb06-442a-81f9-e661b7754ada) :
-Dans le dossier **Project_Final_Kafka**, nous trouvons :
+Dans le dossier **Project_Netflix_Kafka**, nous trouvons :
 
 **airflow.cfg** : Il s'agit d'un fichier de configuration pour Apache Airflow, une plateforme pour créer, planifier et surveiller des workflows. Il contient les paramètres d'Airflow et peut être modifié pour les ajuster.  
 **airflow.db** : C'est la base de données utilisée par Airflow pour gérer ses DAGs et tâches. Ce fichier est au format SQLite3 et peut être utilisé pendant le développement, mais il est fortement recommandé de passer à un autre type (comme PostgreSQL ou MySQL) lors du passage en production.  
